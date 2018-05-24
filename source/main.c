@@ -62,7 +62,7 @@ int main(int argc, char **argv) {
 			FILE *checkGame001 = fopen("/luma/titles/000400000012DE00/locale.txt", "r");
 			fclose(checkGame001);
 			
-			// If no locale set create it.
+			// If no locale set create file.
 			if (checkGame001 == NULL)
 			{
 				mkdir("/luma/titles/000400000012DE00", 0777);
@@ -71,6 +71,54 @@ int main(int argc, char **argv) {
 				fclose(game001);
 				printf("Locale set for Fire Emblem IF (JPN)\n");				
 			}
+			
+			// Taiko no Tatsujin: Don to Katsu no Jikuu Daibouken (JPN)
+			// Check to see if locale already set.
+			FILE *checkGame002 = fopen("/luma/titles/0004000000102F00/locale.txt", "r");
+			fclose(checkGame002);
+			
+			// If no locale set create file.
+			if (checkGame002 == NULL)
+			{
+				mkdir("/luma/titles/0004000000102F00", 0777);
+				FILE *game002 = fopen("/luma/titles/0004000000102F00/locale.txt", "w");
+				fprintf(game002, "JPN JP");
+				fclose(game002);
+				printf("Locale set for Taiko no Tatsujin: Don to Katsu no Jikuu Daibouken (JPN)\n");				
+			}
+			
+			// Taiko no Tatsujin: Don Don! Mystery Adventure (JPN)
+			// Check to see if locale already set.
+			FILE *checkGame003 = fopen("/luma/titles/0004000000190E00/locale.txt", "r");
+			fclose(checkGame003);
+			
+			// If no locale set create file.
+			if (checkGame003 == NULL)
+			{
+				mkdir("/luma/titles/0004000000190E00", 0777);
+				FILE *game003 = fopen("/luma/titles/0004000000190E00/locale.txt", "w");
+				fprintf(game003, "JPN JP");
+				fclose(game003);
+				printf("Locale set for Taiko no Tatsujin: Don Don! Mystery Adventure (JPN)\n");				
+			}
+			
+			// 7th Dragon III Code: VFD (JPN)
+			// Check to see if locale already set.
+			FILE *checkGame004 = fopen("/luma/titles/0004000000115400/locale.txt", "r");
+			fclose(checkGame004);
+			
+			// If no locale set create file.
+			if (checkGame004 == NULL)
+			{
+				mkdir("/luma/titles/0004000000115400", 0777);
+				FILE *game004 = fopen("/luma/titles/0004000000115400/locale.txt", "w");
+				fprintf(game004, "JPN JP");
+				fclose(game004);
+				printf("Locale set for 7th Dragon III Code: VFD (JPN)\n");				
+			}
+			
+			printf("\x1B[32mFinished!\033[0m\n");
+			printf("Press 'START' to exit and enjoy!\n");
 		}
 
 		// Flush and swap framebuffers
