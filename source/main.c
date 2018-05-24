@@ -10,10 +10,6 @@ int main(int argc, char **argv) {
 	gfxInitDefault();
 	consoleInit(GFX_TOP, NULL);
 	
-	// We need these 2 buffers for APT_DoAppJump() later.
-	u8 param[0x300];
-	u8 hmac[0x20];
-
 	// Vars
 	static char gamePatchingState[255]  = "Game Patching is \x1B[31mDisabled\033[0m\n\n";
 	
@@ -37,11 +33,12 @@ int main(int argc, char **argv) {
 		fwrite(gpHex, 1, sizeof(gpHex), gamepatchCode);
 		fclose(gamepatchCode);
 		
-		
+		printf("\x1B[31mPlease Relaunch!\033[0m\n");
 	}
 	else
 	{
 		printf(gamePatchingState);
+		printf("Press 'A' to start creating locale files!\n");
 	}
 
 	// Main loop
@@ -51,8 +48,30 @@ int main(int argc, char **argv) {
 		gfxSwapBuffers();
 		hidScanInput();
 		
-		// CODE GOES HERE
-
+		u32 kDown = hidKeysDown();
+		
+		// Start Button Returns to Home Menu.
+		if (kDown & KEY_START)
+			break; // break in order to return to hbmenu
+		
+		// A Button will start the process of creating locale.txt files.
+		if (kDown & KEY_A)
+		{
+			// Fire Emblem IF (JPN)
+			// Check to see if locale already set.
+			FILE *checkGame001 = fopen("/luma/titles/000400000012DE00/locale.txt", "r");
+			fclose(checkGame001);
+			
+			// If no locale set create it.
+			if (checkGame001 == NULL)
+			{
+				mkdir("/luma/titles/000400000012DE00", 0777);
+				FILE *game001 = fopen("/luma/titles/000400000012DE00/locale.txt", "w");
+				fprintf(game001, "JPN JP");
+				fclose(game001);
+				printf("Locale set for Fire Emblem IF (JPN)\n");				
+			}
+		}
 
 		// Flush and swap framebuffers
 		gfxFlushBuffers();
