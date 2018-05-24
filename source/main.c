@@ -1,6 +1,7 @@
 #ifdef _3DS
 #include <string.h>
 #include <stdio.h>
+#include <dirent.h>
 
 #include <3ds.h>
 
@@ -15,6 +16,33 @@ int main(int argc, char **argv) {
 
 	// Vars
 	static char gamePatchingState[255]  = "Game Patching is \x1B[31mDisabled\033[0m\n\n";
+	
+	printf("Luma Locale Region Auto Setter\n\n");
+	
+	// Checking to see if code.ips exists, if not assume this is first run and create needed files.
+	FILE *gamepatchEnabled = fopen("/luma/titles/0004000005445000/code.ips", "r");
+	fclose(gamepatchEnabled);
+	if (gamepatchEnabled == NULL)
+	{
+		printf("Creating Additional Files!\n");
+
+		// Make sure directories exist.
+		mkdir("/luma", 0777);
+		mkdir("/luma/titles", 0777);
+		mkdir("/luma/titles/0004000005445000", 0777);
+		
+		// Since code.ips doesn't exist create it, this is used to turn Game Patching is Disabled to Enabled via Game Patching.
+		FILE *gamepatchCode = fopen("/luma/titles/0004000005445000/code.ips", "wb");
+		char gpHex[23] = "\x50\x41\x54\x43\x48\x03\x10\x14\x00\x0A\x32\x6D\x45\x6E\x61\x62\x6C\x65\x64\x20\x45\x4F\x46";
+		fwrite(gpHex, 1, sizeof(gpHex), gamepatchCode);
+		fclose(gamepatchCode);
+		
+		
+	}
+	else
+	{
+		printf(gamePatchingState);
+	}
 
 	// Main loop
 	while (aptMainLoop()) {
