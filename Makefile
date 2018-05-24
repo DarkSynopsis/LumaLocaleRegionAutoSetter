@@ -35,9 +35,9 @@ VERSION_MICRO := 0
 # 3DS/Wii U CONFIGURATION #
 
 ifeq ($(TARGET),$(filter $(TARGET),3DS WIIU))
-    TITLE := Taiko DLC Switcher
-    DESCRIPTION := Switch Loaded Taiko3DS3 DLC.
-    AUTHOR := .
+    TITLE := Luma Locale Region Auto Setter
+    DESCRIPTION := Create Locale files for using Out of Region DLC
+    AUTHOR := DarkSynopsis
 endif
 
 # 3DS CONFIGURATION #
@@ -46,8 +46,8 @@ ifeq ($(TARGET),3DS)
     LIBRARY_DIRS += $(DEVKITPRO)/libctru
     LIBRARIES += ctru
 
-    PRODUCT_CODE := CTR-P-T3DS
-    UNIQUE_ID := 0x54440
+    PRODUCT_CODE := CTR-P-LARS
+    UNIQUE_ID := 0x54450
 
     CATEGORY := Application
     USE_ON_SD := true
