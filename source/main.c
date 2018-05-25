@@ -57,66 +57,33 @@ int main(int argc, char **argv) {
 		// A Button will start the process of creating locale.txt files.
 		if (kDown & KEY_A)
 		{
-			// Fire Emblem IF (JPN)
-			// Check to see if locale already set.
-			FILE *checkGame001 = fopen("/luma/titles/000400000012DE00/locale.txt", "r");
-			fclose(checkGame001);
-			
-			// If no locale set create file.
-			if (checkGame001 == NULL)
+			char pathDirectory[35];
+			char pathLocale[45];
+			const char *arrayTitleIDJPN[] = {"000400000012DE00", "0004000000102F00", "0004000000190E00", "0004000000115400"};
+
+			size_t iJPN = 0;
+			for(iJPN = 0; iJPN < sizeof(arrayTitleIDJPN) / sizeof(arrayTitleIDJPN[0]); iJPN++)
 			{
-				mkdir("/luma/titles/000400000012DE00", 0777);
-				FILE *game001 = fopen("/luma/titles/000400000012DE00/locale.txt", "w");
-				fprintf(game001, "JPN JP");
-				fclose(game001);
-				printf("Locale set for Fire Emblem IF (JPN)\n");				
+				snprintf(pathLocale, 45, "/luma/titles/%s/locale.txt", arrayTitleIDJPN[iJPN]);
+				
+				// Check to see if locale already set.
+				FILE *checkGame = fopen(pathLocale, "r");
+				fclose(checkGame);
+				
+				// If no locale set create file.
+				if (checkGame == NULL)
+				{
+					snprintf(pathDirectory, 35, "/luma/titles/%s", arrayTitleIDJPN[iJPN]);
+					
+					mkdir(pathDirectory, 0777);
+					FILE *game = fopen(pathLocale, "w");
+					fprintf(game, "JPN JP");
+					fclose(game);		
+					printf ("Locale set for %s\n", arrayTitleIDJPN[iJPN]);
+				}
 			}
 			
-			// Taiko no Tatsujin: Don to Katsu no Jikuu Daibouken (JPN)
-			// Check to see if locale already set.
-			FILE *checkGame002 = fopen("/luma/titles/0004000000102F00/locale.txt", "r");
-			fclose(checkGame002);
-			
-			// If no locale set create file.
-			if (checkGame002 == NULL)
-			{
-				mkdir("/luma/titles/0004000000102F00", 0777);
-				FILE *game002 = fopen("/luma/titles/0004000000102F00/locale.txt", "w");
-				fprintf(game002, "JPN JP");
-				fclose(game002);
-				printf("Locale set for Taiko no Tatsujin: Don to Katsu no Jikuu Daibouken (JPN)\n");				
-			}
-			
-			// Taiko no Tatsujin: Don Don! Mystery Adventure (JPN)
-			// Check to see if locale already set.
-			FILE *checkGame003 = fopen("/luma/titles/0004000000190E00/locale.txt", "r");
-			fclose(checkGame003);
-			
-			// If no locale set create file.
-			if (checkGame003 == NULL)
-			{
-				mkdir("/luma/titles/0004000000190E00", 0777);
-				FILE *game003 = fopen("/luma/titles/0004000000190E00/locale.txt", "w");
-				fprintf(game003, "JPN JP");
-				fclose(game003);
-				printf("Locale set for Taiko no Tatsujin: Don Don! Mystery Adventure (JPN)\n");				
-			}
-			
-			// 7th Dragon III Code: VFD (JPN)
-			// Check to see if locale already set.
-			FILE *checkGame004 = fopen("/luma/titles/0004000000115400/locale.txt", "r");
-			fclose(checkGame004);
-			
-			// If no locale set create file.
-			if (checkGame004 == NULL)
-			{
-				mkdir("/luma/titles/0004000000115400", 0777);
-				FILE *game004 = fopen("/luma/titles/0004000000115400/locale.txt", "w");
-				fprintf(game004, "JPN JP");
-				fclose(game004);
-				printf("Locale set for 7th Dragon III Code: VFD (JPN)\n");				
-			}
-			
+			// Text to Print when all files created.
 			printf("\x1B[32mFinished!\033[0m\n");
 			printf("Press 'START' to exit and enjoy!\n");
 		}
