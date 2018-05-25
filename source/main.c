@@ -13,7 +13,7 @@ int main(int argc, char **argv) {
 	// Vars
 	static char gamePatchingState[255]  = "Game Patching is \x1B[31mDisabled\033[0m\n\n";
 	
-	printf("Luma Locale Region Auto Setter\n\n");
+	printf("Luma Locale Region Auto Setter (201 Titles)\n\n");
 	
 	// Checking to see if code.ips exists, if not assume this is first run and create needed files.
 	FILE *gamepatchEnabled = fopen("/luma/titles/0004000005445000/code.ips", "r");
@@ -29,11 +29,11 @@ int main(int argc, char **argv) {
 		
 		// Since code.ips doesn't exist create it, this is used to turn Game Patching is Disabled to Enabled via Game Patching.
 		FILE *gamepatchCode = fopen("/luma/titles/0004000005445000/code.ips", "wb");
-		char gpHex[23] = "\x50\x41\x54\x43\x48\x03\x10\x14\x00\x0A\x32\x6D\x45\x6E\x61\x62\x6C\x65\x64\x20\x45\x4F\x46";
+		char gpHex[23] = "\x50\x41\x54\x43\x48\x03\x20\x14\x00\x0A\x32\x6D\x45\x6E\x61\x62\x6C\x65\x64\x20\x45\x4F\x46";
 		fwrite(gpHex, 1, sizeof(gpHex), gamepatchCode);
 		fclose(gamepatchCode);
 		
-		printf("\x1B[31mPlease Relaunch!\033[0m\n");
+		printf("\n\x1B[31mPlease Relaunch!\033[0m\n");
 		printf("Press 'START' to exit!\n");
 	}
 	else
@@ -85,7 +85,11 @@ int main(int argc, char **argv) {
 					FILE *gameJPN = fopen(pathLocale, "w");
 					fprintf(gameJPN, "JPN JP");
 					fclose(gameJPN);		
-					printf ("Locale set for %s\n", arrayTitleIDJPN[iJPN]);
+					printf ("JPN Locale set for %s\n", arrayTitleIDJPN[iJPN]);
+				}
+				else
+				{
+					printf ("JPN Locale already set for %s\n", arrayTitleIDJPN[iJPN]);
 				}
 			}
 			
@@ -107,7 +111,11 @@ int main(int argc, char **argv) {
 					FILE *gameUSA = fopen(pathLocale, "w");
 					fprintf(gameUSA, "USA EN");
 					fclose(gameUSA);		
-					printf ("Locale set for %s\n", arrayTitleIDUSA[iUSA]);
+					printf ("USA Locale set for %s\n", arrayTitleIDUSA[iUSA]);
+				}
+				else
+				{
+					printf ("USA Locale already set for %s\n", arrayTitleIDUSA[iUSA]);
 				}
 			}
 			
@@ -129,7 +137,11 @@ int main(int argc, char **argv) {
 					FILE *gameEUR = fopen(pathLocale, "w");
 					fprintf(gameEUR, "EUR EN");
 					fclose(gameEUR);		
-					printf ("Locale set for %s\n", arrayTitleIDEUR[iEUR]);
+					printf ("EUR Locale set for %s\n", arrayTitleIDEUR[iEUR]);
+				}
+				else
+				{
+					printf ("EUR Locale already set for %s\n", arrayTitleIDEUR[iEUR]);
 				}
 			}
 			

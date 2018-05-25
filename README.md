@@ -4,6 +4,13 @@ Chances are you are trying to play a game not from the same region as your conso
 \
 With this Homebrew it can create the required files needed to solve these issues, at least for the supported games (listed below).
 
+## Instructions
+Make sure "Enable game patching" option is on in the Luma config menu (Hold SELECT on boot)\
+That is pretty much it, run the homebrew, on first launch it will create a code.ips file so it can tell you if Game Patching is Enabled or not\
+From there on hitting the "A" button will create any locale files you are missing.
+
+## Current Title Count = 201
+
 ## JPN
 000400000012DE00 = Fire Emblem IF\
 0004000000102F00 = Taiko no Tatsujin: Don to Katsu no Jikuu Daibouken\
