@@ -1,5 +1,6 @@
 # Luma Locale Region Auto Setter
-Ever had problems with DLC not working? or even the odd game has a black screen or SD error? Chances are you are trying to play a game not from the same region as your console!\
+Ever had problems with DLC not working? or even the odd game has a black screen or SD error?\
+Chances are you are trying to play a game not from the same region as your console!\
 \
 With this Homebrew it can create the required files needed to solve these issues, at least for the supported games (listed below).
 
@@ -92,7 +93,7 @@ With this Homebrew it can create the required files needed to solve these issues
 000400000015B200 = Etrian Mystery Dungeon\
 0004000000113200 = Fantasy Life\
 00040000000A0500 = Fire Emblem: Awakening\
-0004000000179800 = Fire Emblem: Fates Special Edition\
+0004000000179800 = Fire Emblem Fates: Special Edition\
 0004000000179400 = Fire Emblem Fates: Birthright\
 0004000000179600 = Fire Emblem Fates: Conquest\
 000400000010F600 = Harvest Moon - The Lost Valley\
@@ -140,3 +141,70 @@ With this Homebrew it can create the required files needed to solve these issues
 000400000019AA00 = Yo-Kai Watch 2: Fleshy Souls\
 00040000001C8F00 = Radiant Historia: Perfect Chronology\
 00040000001CD200 = Shin Megami Tensei: Deep Strange Journey
+
+## EUR
+000400000018F200 = Dragon Quest VIII\
+00040000001A6C00 = 7th Dragon III Code: VFD\
+000400000016E600 = Shin Megami Tensei 2: Devil Survivor 2 Record Breaker\
+0004000000169600 = Dragon Ball Z: Extreme Butoden\
+00040000001AAA00 = Dragon Ball Fusions\
+0004000000153B00 = A-Train: 3D City Simulator\
+0004000000084D00 = AeternoBlade\
+000400000017BB00 = Bravely Second: End Layer\
+0004000000123C00 = Conception II: Children of the Seven Stars\
+0004000000038A00 = Dead or Alive: Dimensions\
+00040000000D4B00 = Disney Magical World\
+000400000016E900 = Etrian Odyssey 2 Untold: The Fafnir Knight\
+000400000016EA00 = Etrian Mystery Dungeon\
+000400000017CD00 = Tank Troopers\
+0004000000113100 = Fantasy Life\
+000400000009F100 = Fire Emblem: Awakening\
+000400000017A800 = Fire Emblem Fates: Special Edition\
+0004000000179500 = Fire Emblem Fates: Birthright\
+0004000000179700 = Fire Emblem Fates: Conquest\
+0004000000163200 = Fullblox\
+000400000012BE00 = Harvest Moon - The Lost Valley\
+000400000017EB00 = Hyrule Warriors Legends\
+000400000004DC00 = Imagine: Fashion World 3D\
+000400000015B100 = IRONFALL Invasion\
+00040000000DCE00 = Mario Golf World Tour\
+0004000000165700 = MIGHTY GUNVOLT\
+0004000000084F00 = New Art Academy\
+000400000016A100 = New Style Boutique 2\
+000400000007AF00 = New Super Mario Bros 2\
+0004000000106200 = Nintendo Pocket Football Club\
+0004000000117E00 = One Piece Unlimited World Red\
+0004000000149F00 = Persona Q\
+00040000000F1E00 = Phoenix Wright: Ace Attorney - Dual Destinies\
+000400000018FA00 = Phoenix Wright: Ace Attorney Spirit of Justice\
+00040000000BA900 = Pokémon Mystery Dungeon: Gates to Infinity\
+0004000000162000 = Project X Zone 2\
+0004000000137800 = Puzzle & Dragons Z + Puzzle & Dragons: Super Mario Bros. Edition\
+0004000000173B00 = SAMURAI WARRIORS: Chronicles 3\
+0004000000165800 = SENRAN KAGURA 2: Deep Crimson\
+0004000000141C00 = Shin Megami Tensei IV\
+00040000001A6B00 = Shin Megami Tensei IV: Apocalypse\
+000400000008FC00 = Sonic & All-Stars Racing Transformed\
+000400000008CC00 = Sparkle Snapshots 3D\
+0004000000157C00 = Steamworld Heist\
+00040000000D7E00 = Steel Diver: Sub Wars\
+00040000000EE000 = Super Smash Bros\
+0004000000091600 = Theatrhythm Final Fantasy\
+00040000000FCA00 = Theatrhythm Final Fantasy: Curtain Call\
+00040000000EDA00 = Pure Chess\
+000400000009AD00 = Foto Glitter 3D\
+00040000001AB900 = Team Kirby Clash Deluxe\
+0004000000125600 = The Legend of Zelda: Majora's Mask 3D\
+00040000001B4100 = Fire Emblem Echoes: Shadows of Valentia\
+00040000001A4900 = Ever Oasis\
+00040000001B9D00 = RPGMaker Fes\
+00040000001BC300 = Blaster Master Zero\
+00040000001C7600 = MIGHTY GUNVOLT BURST\
+000400000F70CD00 = Fire Emblem: Warriors\
+00040000001C5300 = Etrian Oddysey V\
+00040000001BCA00 = Culdcept Revolt\
+000400000019AB00/000400000019B000 = Yo-Kai Watch 2: Bony Spirits\
+000400000019AC00/000400000019B100 = Yo-Kai Watch 2: Fleshy Souls\
+00040000001B2900 = Yo-Kai Watch 2: Psychic Specters\
+00040000001CD900 = Radiant Historia: Perfect Chronology\
+00040000001CE100 = Shin Megami Tensei: Deep Strange Journey
