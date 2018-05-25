@@ -6,7 +6,7 @@ With this Homebrew it can create the required files needed to solve these issues
 (listed below).
 
 ## Instructions
-**Luma 7.0+ Required**
+**Luma 7.0+ Required**\
 Make sure "Enable game patching" option is on in the Luma config menu (Hold SELECT on boot)\
 That is pretty much it, run the homebrew, on first launch it will create a code.ips file so it can tell you if Game Patching\
 was found to be Enabled or not\
