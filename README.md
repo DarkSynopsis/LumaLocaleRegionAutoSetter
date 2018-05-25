@@ -12,6 +12,14 @@ That is pretty much it, run the homebrew, on first launch it will create a code.
 was found to be Enabled or not\
 From there on hitting the "A" button will create any locale files you are missing.
 
+## Other Info
+Don't know much C Programming, this just seemed like a quick fun project! sure the code is a mess but it works\
+Ideally it would be nice if a list could be pulled from a URL so no updates to the Homebrew is required\
+But we are nearing the end of the 3DS life span so I can't imagine we will see many more titles that require\
+this feature, would also be nice to get the region of the 3DS so it only creates the files you'd actually need\
+though a couple hundred text files aren't going to take up enough SD space to worry about, if you notice a\
+title is missing feel free to create an issue and let me know.
+
 ## Current Title Count = 201
 The Title Count is shown at the top of the Homebrew, if your number is lower you might want to grab a newer release.
 
