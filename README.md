@@ -2,14 +2,18 @@
 Ever had problems with DLC not working? or even the odd game has a black screen or SD error?\
 Chances are you are trying to play a game not from the same region as your console!\
 \
-With this Homebrew it can create the required files needed to solve these issues, at least for the supported games (listed below).
+With this Homebrew it can create the required files needed to solve these issues, at least for the supported games\
+(listed below).
 
 ## Instructions
+**Luma 7.0+ Required**
 Make sure "Enable game patching" option is on in the Luma config menu (Hold SELECT on boot)\
-That is pretty much it, run the homebrew, on first launch it will create a code.ips file so it can tell you if Game Patching is Enabled or not\
+That is pretty much it, run the homebrew, on first launch it will create a code.ips file so it can tell you if Game Patching\
+was found to be Enabled or not\
 From there on hitting the "A" button will create any locale files you are missing.
 
 ## Current Title Count = 201
+The Title Count is shown at the top of the Homebrew, if your number is lower you might want to grab a newer release.
 
 ## JPN
 000400000012DE00 = Fire Emblem IF\
