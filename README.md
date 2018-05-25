@@ -1,8 +1,9 @@
 # Luma Locale Region Auto Setter
 Ever had problems with DLC not working? or even the odd game has a black screen or SD error? Chances are you are trying to play a game not from the same region as your console!\
+\
 With this Homebrew it can create the required files needed to solve these issues, at least for the supported games (listed below).
 
-## JPN Games
+## JPN
 000400000012DE00 = Fire Emblem IF\
 0004000000102F00 = Taiko no Tatsujin: Don to Katsu no Jikuu Daibouken\
 0004000000190E00 = Taiko no Tatsujin: Don Don! Mystery Adventure\
@@ -71,4 +72,71 @@ With this Homebrew it can create the required files needed to solve these issues
 0004000000191000 = Yo-Kai Watch 3: Sushi\
 0004000000191100 = Yo-Kai Watch 3: Tempura\
 00040000001C9C00 = Yokai Watch Busters 2 Magnum\
-00040000001C9400 = Yokai Watch Busters 2 Sword\
+00040000001C9400 = Yokai Watch Busters 2 Sword
+
+## USA
+000400000018A400 = Rhythm Heaven Megamix\
+000400000018F100 = Dragon Quest VIII\
+000400000018F800 = 7th Dragon III Code: VFD\
+0004000000159500 = Shin Megami Tensei: Devil Survivor 2 Record Breaker\
+000400000016CD00 = Dragon Ball Z: Extreme Butoden\
+00040000001AA900 = Dragon Ball Fusions\
+00040000000CD300 = AeternoBlade\
+0004000000095800 = Art Academy: Lessons for Everyone!\
+0004000000128600 = BIKE RIDER DX2: GALAXY\
+000400000017BA00 = Bravely Second: End Layer\
+0004000000112C00 = Conception II: Children of the Seven Stars\
+0004000000034F00 = Dead or Alive: Dimensions\
+00040000000EA900 = Disney Magical World\
+000400000015F200 = Etrian Odyssey 2 Untold: The Fafnir Knight\
+000400000015B200 = Etrian Mystery Dungeon\
+0004000000113200 = Fantasy Life\
+00040000000A0500 = Fire Emblem: Awakening\
+0004000000179800 = Fire Emblem: Fates Special Edition\
+0004000000179400 = Fire Emblem Fates: Birthright\
+0004000000179600 = Fire Emblem Fates: Conquest\
+000400000010F600 = Harvest Moon - The Lost Valley\
+000400000017EA00 = Hyrule Warriors Legends\
+000400000015D800 = IRONFALL Invasion\
+00040000000DCD00 = Mario Golf World Tour\
+000400000014CD00 = MIGHTY GUNVOLT\
+000400000012E700 = Moon Chronicles\
+000400000007AE00 = New Super Mario Bros 2\
+0004000000123D00 = One Piece Unlimited World Red\
+0004000000123400 = Persona Q\
+00040000000F1400 = Phoenix Wright: Ace Attorney - Dual Destinies\
+000400000018F400 = Phoenix Wright: Ace Attorney Spirit of Justice\
+00040000000BA800 = Pokémon Mystery Dungeon: Gates to Infinity\
+0004000000160C00 = Project X Zone 2\
+0004000000137700 = Puzzle & Dragons Z + Puzzle & Dragons: Super Mario Bros. Edition\
+0004000000106400 = Rusty's Real Deal Baseball\
+000400000016F200 = SAMURAI WARRIORS: Chronicles 3\
+0004000000165000 = SENRAN KAGURA 2: Deep Crimson\
+00040000000E5C00 = Shin Megami Tensei IV\
+000400000019A200 = Shin Megami Tensei IV: Apocalypse\
+00040000000B3500 = Sonic & All-Stars Racing Transformed\
+000400000008CD00 = Sparkle Snapshots 3D\
+000400000012D900 = Steamworld Heist\
+00040000000d7D00 = Steel Diver: Sub Wars\
+0004000000163100 = Stretchmo\
+00040000000EDF00 = Super Smash Bros\
+0004000000095100 = Theatrhythm Final Fantasy\
+00040000000FD500 = Theatrhythm Final Fantasy: Curtain Call\
+0004000000196E00 = Gotta Protectors\
+000400000019F500 = Story of Seasons : Trio of Town\
+000400000016DE00 = SmileBASIC\
+00040000000F1700 = Pure Chess\
+00040000001A3500 = Harvest Moon: Skytree Village\
+00040000001AB800 = Team Kirby Clash Deluxe\
+0004000000125500 = The Legend of Zelda: Majora's Mask 3D\
+00040000001B4000 = Fire Emblem Echoes: Shadows of Valentia\
+00040000001A4800 = Ever Oasis\
+00040000001BD500 = RPGMaker Fes\
+00040000001BD000 = Blaster Master Zero\
+00040000001C7700 = MIGHTY GUNVOLT BURST\
+000400000F70CC00 = Fire Emblem: Warriors\
+00040000001C5100 = Etrian Oddysey V\
+00040000001BEC00 = Culdcept Revolt\
+000400000019AA00 = Yo-Kai Watch 2: Fleshy Souls\
+00040000001C8F00 = Radiant Historia: Perfect Chronology\
+00040000001CD200 = Shin Megami Tensei: Deep Strange Journey
