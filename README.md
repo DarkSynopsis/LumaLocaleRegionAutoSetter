@@ -92,7 +92,10 @@ The Title Count is shown at the top of the Homebrew, if your number is lower you
 0004000000191000 = Yo-Kai Watch 3: Sushi\
 0004000000191100 = Yo-Kai Watch 3: Tempura\
 00040000001C9C00 = Yokai Watch Busters 2 Magnum\
-00040000001C9400 = Yokai Watch Busters 2 Sword
+00040000001C9400 = Yokai Watch Busters 2 Sword\
+0004000000031500 = Nintendogs + Cats: Toy Poodle & New Friends\
+0004000000031000 = Nintendogs + Cats: French Bulldog & New Friends\
+0004000000030B00 = Nintendogs + Cats: Shiba & New Friends
 
 ## USA
 000400000018A400 = Rhythm Heaven Megamix\
@@ -159,7 +162,10 @@ The Title Count is shown at the top of the Homebrew, if your number is lower you
 00040000001BEC00 = Culdcept Revolt\
 000400000019AA00 = Yo-Kai Watch 2: Fleshy Souls\
 00040000001C8F00 = Radiant Historia: Perfect Chronology\
-00040000001CD200 = Shin Megami Tensei: Deep Strange Journey
+00040000001CD200 = Shin Megami Tensei: Deep Strange Journey\
+0004000000031700 = Nintendogs + Cats: Toy Poodle & New Friends\
+0004000000030D00 = Nintendogs + Cats: Golden Retriever & New Friends\
+0004000000031200 = Nintendogs + Cats: French Bulldog & New Friends (USA)
 
 ## EUR
 000400000018F200 = Dragon Quest VIII\
@@ -226,4 +232,7 @@ The Title Count is shown at the top of the Homebrew, if your number is lower you
 000400000019AC00/000400000019B100 = Yo-Kai Watch 2: Fleshy Souls\
 00040000001B2900 = Yo-Kai Watch 2: Psychic Specters\
 00040000001CD900 = Radiant Historia: Perfect Chronology\
-00040000001CE100 = Shin Megami Tensei: Deep Strange Journey
+00040000001CE100 = Shin Megami Tensei: Deep Strange Journey\
+0004000000030C00 = Nintendogs + Cats: Golden Retriever & New Friends\
+0004000000031600 = Nintendogs + Cats: Toy Poodle & New Friends\
+0004000000031100 = Nintendogs + Cats: French Bulldog & New Friends
