@@ -20,7 +20,7 @@ this feature, would also be nice to get the region of the 3DS so it only creates
 though a couple hundred text files aren't going to take up enough SD space to worry about, if you notice a\
 title is missing feel free to create an issue and let me know.
 
-## Current Title Count = 219
+## Current Title Count = 220
 The Title Count is shown at the top of the Homebrew, if your number is lower you might want to grab a newer release.
 
 ## JPN
@@ -99,7 +99,8 @@ The Title Count is shown at the top of the Homebrew, if your number is lower you
 0004000000154000 = Sega 3D Fukkoku Archives\
 0004000000180E00 = Sega 3D Fukkoku Archives 2\
 00040000001AA300 = Sega 3D Fukkoku Archives 3: Final Stage\
-000400000017FD00 = Minecraft
+000400000017FD00 = Minecraft\
+0004000000196700 = Sushi Striker: Way of Sushido
 
 ## USA
 000400000018A400 = Rhythm Heaven Megamix\
