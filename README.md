@@ -20,7 +20,7 @@ this feature, would also be nice to get the region of the 3DS so it only creates
 though a couple hundred text files aren't going to take up enough SD space to worry about, if you notice a\
 title is missing feel free to create an issue and let me know.
 
-## Current Title Count = 220
+## Current Title Count = 224
 The Title Count is shown at the top of the Homebrew, if your number is lower you might want to grab a newer release.
 
 ## JPN
@@ -173,7 +173,9 @@ The Title Count is shown at the top of the Homebrew, if your number is lower you
 0004000000031200 = Nintendogs + Cats: French Bulldog & New Friends\
 0004000000185C00 = SEGA 3D Classics Collection\
 00040000001B8700 = Minecraft\
-00040000001C1C00 = Sushi Striker: Way of Sushido
+00040000001C1C00 = Sushi Striker: Way of Sushido\
+00040000001CEB00 = Yo-Kai Watch Blasters: Red Cat Corps\
+00040000001CEF00 = Yo-Kai Watch Blasters: White Dog Squad
 
 ## EUR
 000400000018F200 = Dragon Quest VIII\
@@ -245,4 +247,6 @@ The Title Count is shown at the top of the Homebrew, if your number is lower you
 0004000000031600 = Nintendogs + Cats: Toy Poodle & New Friends\
 0004000000031100 = Nintendogs + Cats: French Bulldog & New Friends\
 000400000019A700 = SEGA 3D Classics Collection\
-00040000001C1D00 = Sushi Striker: Way of Sushido
+00040000001C1D00 = Sushi Striker: Way of Sushido\
+00040000001CEC00 = Yo-Kai Watch Blasters: Red Cat Corps\
+00040000001CF000 = Yo-Kai Watch Blasters: White Dog Squad
