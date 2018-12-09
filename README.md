@@ -10,7 +10,8 @@ With this Homebrew it can create the required files needed to solve these issues
 Make sure "Enable game patching" option is on in the Luma config menu (Hold SELECT on boot)\
 That is pretty much it, run the homebrew, on first launch it will create a code.ips file so it can tell you if Game Patching\
 was found to be Enabled or not (Will always say Disabled in 3dsx version)\
-From there on hitting the "A" button will create any locale files you are missing.
+From there on hitting the "A" button will create any locale files you are missing.\
+If the CIA is still saying Game patching is disabled and you are certain its not its possible you ran a previous version of this homebrew and would need to delete the code.ips found in "/luma/titles/0004000005445000/" or feel free to ignore the line if you are sure Game patching is enabled.
 
 ## Other Info
 Don't know much C Programming, this just seemed like a quick fun project! sure the code is a mess but it works\
@@ -20,7 +21,7 @@ this feature, would also be nice to get the region of the 3DS so it only creates
 though a couple hundred text files aren't going to take up enough SD space to worry about, if you notice a\
 title is missing feel free to create an issue and let me know.
 
-## Current Title Count = 225
+## Current Title Count = 226
 The Title Count is shown at the top of the Homebrew, if your number is lower you might want to grab a newer release.
 
 ## JPN
@@ -250,4 +251,5 @@ The Title Count is shown at the top of the Homebrew, if your number is lower you
 000400000019A700 = SEGA 3D Classics Collection\
 00040000001C1D00 = Sushi Striker: Way of Sushido\
 00040000001CEC00 = Yo-Kai Watch Blasters: Red Cat Corps\
-00040000001CF000 = Yo-Kai Watch Blasters: White Dog Squad
+00040000001CF000 = Yo-Kai Watch Blasters: White Dog Squad\
+00040000001D6800 = Yo-kai Watch 3
